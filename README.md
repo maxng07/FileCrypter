@@ -1,7 +1,7 @@
 # FileCrypt
 File Encryption using a passphrase
 <p>
- FileCrypt program uses AES-GCM-SIV for encryption. The program uses the AES-GCM-SIV package written by Adam Langley who is also the co-author of the <a href="https://datatracker.ietf.org/doc/rfc8452/?">RFC </a>. For more information and details of AES-GCM-SIV, you can refer to <a href="https://cyber.biu.ac.il/aes-gcm-siv/"> AES-GCM-SIV Mode of Operation </a> and Cloudflare has a <a href="https://blog.cloudflare.com/tls-nonce-nse/"> great blog </a> on the different cipher suite for TLS use-case.
+ FileCrypt program uses AES-GCM-SIV for encryption. The program uses the AES-GCM-SIV package written by Adam Langley (the same copyright <a href="https://github.com/agl/gcmsiv/commit/e8dcd2f151dc75b6fd5697d94c2bb57eccd05e21"> required </a> who is also the co-author of the <a href="https://datatracker.ietf.org/doc/rfc8452/?">RFC </a>. For more information and details of AES-GCM-SIV, you can refer to <a href="https://cyber.biu.ac.il/aes-gcm-siv/"> AES-GCM-SIV Mode of Operation </a> and Cloudflare has a <a href="https://blog.cloudflare.com/tls-nonce-nse/"> great blog </a> on the different cipher suite for TLS use-case. 
 <p>
 Filecrypt program encrypt or decrypt one file at a time. The necessary parameters needed are explained within the help for FileCrypt. These are <br>
 <p>
