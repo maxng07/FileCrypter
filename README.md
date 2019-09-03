@@ -15,3 +15,23 @@ Options: <br>
  Please note that FileCrypt does not stored the passphrase given by the user, the same passphrase used for encryption needs to be used to decrypt on the same file. And in all files store in media/disk, it can be proned to corruption by various reasons (corruption, disk failures etc), it is highly recommended that user backup their original file. Any corruption on the encrypted file may cause issues with decryption.
 <p>  
 FileCrypt has been tested to work on text/ASCII, pdf, video movie (MOV) and should work on most file format. The User is requested to test it out. Currently, no support is being offered and the user acknowledge they are fully responsible on the usage of FileCrypt on the health status of their own files.
+<p>
+ Filecrypt uses a package for AES-GCMSIV which has a copyright license as part of BoringSSL. The copyright notice as is below
+<p>
+ 
+/* Copyright (c) 2017, Google Inc.
+ *
+ * This code was written to support development of BoringSSL and thus is
+ * considered part of BoringSSL and under the same license.
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+ * SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+ * OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+ * CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. */ 
