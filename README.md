@@ -16,9 +16,11 @@ Options: <br>
 <p>  
 FileCrypt has been tested to work on text/ASCII, pdf, video movie (MOV) and should work on most file format. The User is requested to test it out. Currently, no support is being offered and the user acknowledge they are fully responsible on the usage of FileCrypt on the health status of their own files.
 <p>
+ 
+ <h2>Licensing </h2>
  Filecrypt uses a GO package for AES-GCMSIV which has a copyright license as part of BoringSSL. The copyright notice as is below
 <p>
- 
+
 /* Copyright (c) 2017, Google Inc.
  *
  * This code was written to support development of BoringSSL and thus is
