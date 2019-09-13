@@ -19,7 +19,7 @@ FileCrypt has been tested to work on text/ASCII, pdf, video movie (MOV) and shou
 The latest binary for FileCrypt can be downloaded <a href="https://github.com/maxng07/FileCrypter/releases"> here </a>
 <h2>Caveats </h2>
 An encryption test (on old i7 CORE MAC) done on a 2GB movie file saw 4.27GB of memory consume, 2GB read and 2GB write. 6 threads and a single process are started, as the program currently does not use parallelism and concurrency. The current program reads the file into memory before performing encryption/decryption and writing to disk. As such the current FileCrypt may not work for large files where memory limitation is a concern. A significant huge file for encryption or decryption would also takes significant time to complete. <br>
-At the same time, a slightly over 20MB ASCII log file took slightly over 8s to encrypt and similar to decrypt. <br>
+At the same time, on the same machine spec, a slightly over 20MB ASCII log file took slightly over 8s to encrypt and similar to decrypt. <br>
 Feedback welcome from users of FileCrypt.
 <p>
 
