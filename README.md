@@ -15,11 +15,13 @@ Options: <br>
  Please note that FileCrypt does not stored the passphrase given by the user, the same passphrase used for encryption needs to be used to decrypt on the same file. And in all files store in media/disk, it can be proned to corruption by various reasons (corruption, disk failures etc), it is highly recommended that user backup their original file. Any corruption on the encrypted file may cause issues with decryption.
 <p>  
 FileCrypt has been tested to work on text/ASCII, pdf, video movie (MOV) and should work on most file format. The User is requested to test it out. Currently, no support is being offered and the user acknowledge they are fully responsible on the usage of FileCrypt on the health status of their own files. <p>
-
+<br>
+The latest binary for FileCrypt can be downloaded <a href="https://github.com/maxng07/FileCrypter/releases"> here </a>
 <h2>Caveats </h2>
 An encryption test (on old i7 CORE MAC) done on a 2GB movie file saw 4.27GB of memory consume, 2GB read and 2GB write. 6 threads and a single process are started, as the program currently does not use parallelism and concurrency. The current program reads the file into memory before performing encryption/decryption and writing to disk. As such the current FileCrypt may not work for large files where memory limitation is a concern. Significant huge file for encryption/decryption would also takes significant time to complete. At the same time, a slightly over 20MB ASCII log file took slightly over 8s to encrypt and similar to decrypt. <br>
 Feedback welcome from users of FileCrypt.
 <p>
+
  
  <h2>Licensing </h2>
  Filecrypt uses a GO package for AES-GCMSIV which has a copyright license as part of BoringSSL. The copyright notice as is below
