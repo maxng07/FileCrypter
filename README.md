@@ -25,6 +25,8 @@ Feedback welcome from users of FileCrypt.
 
  
  <h2>Licensing </h2>
+ All RIGHTS RESERVED.
+ 
  Filecrypt uses a GO package for AES-GCMSIV which has a copyright license as part of BoringSSL. The copyright notice as is below
 <p>
 
