@@ -14,7 +14,7 @@ Options: <br>
 <p>
  Please note that FileCrypt does not stored the passphrase given by the user, the same passphrase used for encryption needs to be used to decrypt on the same file. And in all files store in media/disk, it can be proned to corruption by various reasons (corruption, disk failures etc), it is highly recommended that user backup their original file. Any corruption on the encrypted file may cause issues with decryption.
 <p>  
-FileCrypt has been tested to work on text/ASCII, pdf, video movie (MOV) and should work on most file format. The User is requested to test it out. Currently, no support is being offered and the user acknowledge they are fully responsible on the usage of FileCrypt on the health status of their own files. <p>
+FileCrypt has been tested to work on text/ASCII, pdf, video movie (MOV), Microsoft Excel, Powerpoint and Word Document and should work on most file format. The User is requested to test it out. Currently, no support is being offered and the user acknowledge they are fully responsible on the usage of FileCrypt on the health status of their own files. <p>
 <br>
 The latest binary for FileCrypt can be downloaded <a href="https://github.com/maxng07/FileCrypter/releases"> here </a>
 <h2>Caveats </h2>
